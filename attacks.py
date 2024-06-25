@@ -168,7 +168,7 @@ class AttackerPolymer:
         try:
             from torchattacks import AutoAttack
         except:
-            os.system('pip3 install git+https://github.com/fra31/auto-attack')
+            os.system('pip install git+https://github.com/Harry24k/adversarial-attacks-pytorch.git')
             from torchattacks import AutoAttack
 
         adversary = AutoAttack(model, norm='Linf', eps=self.epsilon, version='standard', verbose=False)
