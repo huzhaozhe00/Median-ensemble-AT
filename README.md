@@ -2,16 +2,22 @@
 
 This repository contains the code of ["Self-Ensemble Adversarial Training for Improved Robustness"](https://ieeexplore.ieee.org/abstract/document/10446117) published at ICASSP 2024. 
 
-## Prerequisites
+## Requirements
+The development environment is:
 * Python (3.10)
 * Pytorch (1.13)
 * CUDA
 * Torchvision (0.14)
 * Torchattacks (3.3)
 
-## How to train
+## Training
 
-Train WideResNet-34-10 on CIFAR-10:
+To train a ResNet-18 on CIFAR-10 using PGD-10:
 ```
-$ python3 meat.py --arch 'WRN'
+python meat.py
+```
+
+To train a WideResNet-34-10 on CIFAR-10 using PGD-10:
+```
+python meat.py --arch 'WRN'
 ```
