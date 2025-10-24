@@ -1,6 +1,6 @@
 # Median-ensemble Adversarial Training (MEAT)
 
-This repository contains the code of ["Self-Ensemble Adversarial Training for Improved Robustness"](https://ieeexplore.ieee.org/abstract/document/10446117) published at ICASSP 2024. 
+This repository contains the code of ["Median-Ensemble Adversarial Training for Improving Robustness and Generalization"](https://ieeexplore.ieee.org/abstract/document/10446117) published at ICASSP 2024. 
 
 ## Requirements
 The development environment is:
